@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#"><img src="immagini/logo.png" alt=""></a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<!--carosello-->
+    <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li
+                data-bs-target="#carouselId"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="First slide"
+            ></li>
+            <li
+                data-bs-target="#carouselId"
+                data-bs-slide-to="1"
+                aria-label="Second slide"
+            ></li>
+            <li
+                data-bs-target="#carouselId"
+                data-bs-slide-to="2"
+                aria-label="Third slide"
+            ></li>
+        </ol>
+        <div class="carousel-inner " role="listbox">
+            <div class="carousel-item active">
+                <img
+                    src="immagini/percorso.jpg"
+                    class="w-100 d-block"
+                    alt="First slide"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Sentieri Selvaggi: Esplora la Bellezza Incontaminata della Natura</h3>
+                    <p>Benvenuti nel nostro percorso nella natura, un viaggio emozionante attraverso paesaggi incontaminati e rifugi segreti della madre terra.</p>
+                    <a href="#" class="btn btn-primary">Scopri di pi&uacute;</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img
+                    src="immagini/campeggio.jpg"
+                    class="w-100 d-block"
+                    alt="Second slide"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Trascendi nella Natura: La tua Avventura di Campeggio Perfetta!</h3>
+                    <p>Benvenuti nel nostro rifugio nel cuore della natura, dove il tempo rallenta e le stelle si accendono per illuminare le vostre serate</p>
+                    <a href="#" class="btn btn-primary">Scopri di pi&uacute;</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img
+                    src="immagini/trekking.jpg"
+                    class="w-100 d-block"
+                    alt="Third slide"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Scopri Nuovi Orizzonti: Avventura di Trekking nel Cuore della Natura!</h3>
+                    <p>Benvenuti nel mondo del trekking, dove ogni passo è una scoperta e ogni panorama è un'opera d'arte della natura</p>
+                    <a href="#" class="btn btn-primary">Scopri di pi&uacute;</a>
+                </div>
+            </div>
+        </div>
+        <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselId"
+            data-bs-slide="prev"
+        >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselId"
+            data-bs-slide="next"
+        >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--cards-->
+    <div class="row row-cols-1 row-cols-md-3 g-4 text-center">
+        <div class="col">
+          <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
+            <img src="immagini/camping-tent.jpg" class="card-img-top rounded-circle w-25 " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Campeggio</h5>
+              <p class="card-text">Goditi notti stellate e giornate avventurose in un'oasi di tranquillità nel cuore della natura, ideale per un campeggio indimenticabile.</p>
+              <a href="#" class="btn btn-primary">Scopri di pi&uacute;</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
+            <img src="immagini/percorso.png" class="card-img-top rounded-circle w-25" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sentieri</h5>
+              <p class="card-text">Segui sentieri selvaggi attraverso foreste lussureggianti e prati verdeggianti per immergerti completamente nella bellezza della natura.</p>
+              <a href="#" class="btn btn-primary">Scopri di pi&uacute;</a>
+            </div>
+         </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
+            <img src="immagini/sentierotr.jpg" class="card-img-top rounded-circle w-25" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Trekking</h5>
+              <p class="card-text">Esplora le montagne, attraversa valli e scopri panorami mozzafiato durante un'emozionante avventura di trekking.</p>
+              <a href="#" class="btn btn-primary">Scopri di pi&uacute;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+      <!-- Footer -->
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+      
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      &copy; 2024 Copyright: Verbena Siliberti
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+<script src="bootstrap-5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
